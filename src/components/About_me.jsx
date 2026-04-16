@@ -3,9 +3,10 @@ import Footer from "./Footer";
 function AboutMe() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
+      
     <div className="min-h-screen  flex-grow flex  items-center justify-center bg-gray-100">
 
-      <div className="flex w-[900px]  shadow-lg  " >
+      <div className="flex w-full max-w-4xl min-h-[500px]  shadow-lg  " >
 
         {/* LEFT CARD */}
         <div className="bg-[#d6cfc7] w-1/2 p-10 flex flex-col items-center text-center">
@@ -13,7 +14,7 @@ function AboutMe() {
           <img
             src="/src/JOHN.jpg"
             alt="profile"
-            className="w-40 h-40 rounded-full object-cover mb-5"
+            className="w-60 h-60 rounded-full object-cover mb-5"
           />
 
           <h2 className="text-2xl font-bold">John Ngugi</h2>
@@ -30,14 +31,15 @@ function AboutMe() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div className="bg-white w-1/2 p-10 ">
+        <div className="bg-white w-1/2 p-10  ">
+        <div className="mt-10">
           <h1 className="text-5xl font-bold mb-4">Hello</h1>
 
-          <p className="mb-6 text-lg">
+          <p className="mb-8 text-lg">
             Here's who I am & what I do
           </p>
 
-          <div className="flex gap-4 mb-6">
+          <div className="flex gap-4 mb-8">
             <button className=" py-2 border px-5 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300">
               Resume
             </button>
@@ -51,8 +53,9 @@ function AboutMe() {
             I’m a frontend developer with a design background, creating intuitive and visually engaging web experiences.
           </p>
         </div>
-        
+        </div>
       </div>
+      
       </div>
       <Footer />
 

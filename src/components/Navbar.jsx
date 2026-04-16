@@ -6,8 +6,8 @@ function Navbar() {
         <div className="flex items-center gap-2 ">
         <div className="w-4 h-4 bg-blue-500 my-3"></div>
         <div>
-        <h1 className="font-bold text-lg ">John Ngugi  
-        <span className="font-normal text-gray-500 text-sm"> / Web Developer</span>
+        <h1 className="font-bold text-xl ">John Ngugi  
+        <span className="font-normal text-gray-500 text-md"> / Web Developer</span>
         </h1>
         </div>
         </div>

@@ -1,8 +1,18 @@
+import Footer from "./Footer";
+
 function Resume() {
   return (
-    <nav className="flex justify-between items-center p-5">
-      <h1 className="font-bold text-lg">John Ngugi</h1>
-    </nav>
+    <main className="  flex flex-col  min-h-screen bg-[#d6cfc7] justify-between items-center ">
+      
+
+       <div className="flex-grow">
+
+        
+       </div>
+
+      <Footer/>
+    </main>
+    
   );
 }
 
