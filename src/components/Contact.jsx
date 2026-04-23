@@ -5,7 +5,7 @@ function Contact() {
     <div className="flex  flex-col min-h-screen bg-[#d6cfc7] items-center ">
       <main className="flex-grow flex-col flex items-center justify-center">
         <div className="flex items-center gap-2 p-10">
-          <div className="w-5 h-5 bg-blue-600"></div>
+          <div className="w-5 h-5 bg-blue-600 mt-2"></div>
           <div><h1 className="font-bold text-4xl ">Let's talk</h1></div>
 
         </div>

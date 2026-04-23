@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Footer from "./Footer";
 
 function AboutMe() {
@@ -40,13 +42,16 @@ function AboutMe() {
           </p>
 
           <div className="flex gap-4 mb-8">
+            <Link to="/Resume">
             <button className=" py-2 border px-5 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300">
               Resume
             </button>
-
+            </Link>
+            <Link to="/Projects">
             <button className="border px-5 py-2 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300" >
               Projects
             </button>
+            </Link>
           </div>
 
           <p className="text-gray-600">
