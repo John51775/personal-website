@@ -4,7 +4,7 @@ function ProjectsCard({name, role, details, link, image}){
 
 return(
 
-<div className="w-full max-w-4xl min-h-[400px] bg-white my-4 shadow-md flex gap-2 ">
+<div className="w-full max-w-4xl min-h-[400px] bg-white my-5 shadow-md flex gap-2  ">
 
           
          

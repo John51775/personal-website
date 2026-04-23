@@ -13,11 +13,11 @@ function Contact() {
 
           <form className="space-y-4">
 
-            <div className="flex gap-4">
+            <div className="flex gap-6">
               <input
               type="text"
               placeholder="First Name"
-              className="w-1/2 border-b border-black bg-transparent outline-none py-2"
+              className="w-1/2 border-b border-black  py-2"
               />
           
               <input
@@ -37,20 +37,21 @@ function Contact() {
             <input
             type="text"
             placeholder="subject"
-            className="w-full border-b border-black bg-transparent outline-none py-2"
+            className="w-full border-b py-2"
              />
              
              <textarea
              placeholder="message"
              rows="4"  
-             className="w-full border-b border-black bg-transparent outline-none py-2 resize-none"           
+             className="w-full border-b py-2 resize-none"           
              ></textarea>
 
              {/* BUTTON */}
+             <a href="mailto:ngaruiyajohn86@gmail.com">
             <button className="py-2 text-white px-4 bg-blue-600 rounded-full   transition-transform duration-200 hover:scale-95">
              Send Message
             </button>
-
+            </a>
           </form>
 
 

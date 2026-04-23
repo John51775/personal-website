@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { FaTiktok, FaXTwitter, FaGithub } from "react-icons/fa6";
 import Footer from "./Footer";
 
 function AboutMe() {
@@ -25,10 +25,16 @@ function AboutMe() {
 
           <p className="tracking-widest text-sm">Front End Web Developer</p>
 
-          <div className="flex gap-4 mt-6">
-            <span>🌐</span>
-            <span>🐦</span>
-            <span>💼</span>
+          <div className="flex gap-4 mt-6 text-xl">
+            <a href="https://www.tiktok.com/@_.johnngugi" target="_blank" rel="noopener noreferrer">
+            <FaTiktok  className="hover:text-blue-600 transition-colors duration-300" />
+            </a>
+            <a href="https://twitter.com/@ngaruiya2541" target="_blank">
+            <FaXTwitter className="hover:text-blue-600 transition-colors duration-300" />
+            </a>
+            <a href="https://github.com/John51775" target="_blank">
+            < FaGithub className="hover:text-blue-600 transition-colors duration-300" />
+            </a>
           </div>
         </div>
 
@@ -37,24 +43,25 @@ function AboutMe() {
         <div className="mt-10">
           <h1 className="text-5xl font-bold mb-4">Hello</h1>
 
-          <p className="mb-8 text-lg">
+          <p className="mb-8 text-lg text-gray-600">
             Here's who I am & what I do
           </p>
 
           <div className="flex gap-4 mb-8">
             <Link to="/Resume">
-            <button className=" py-2 border px-5 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300">
+            <button className=" py-2 border border-gray-600 px-5 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300">
               Resume
             </button>
             </Link>
+            
             <Link to="/Projects">
-            <button className="border px-5 py-2 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300" >
+            <button className="border border-gray-600 px-5 py-2 rounded-full hover:text-white hover:bg-blue-600 transition-colors duration-300" >
               Projects
             </button>
             </Link>
           </div>
 
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-lg">
             I’m a frontend developer with a design background, creating intuitive and visually engaging web experiences.
           </p>
         </div>

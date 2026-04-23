@@ -7,8 +7,8 @@ return(
         <div className="flex justify-between gap-2 items-center">
          <div className="flex flex-col p-10">
             <h2 className="text-blue-600 text-2xl font-bold ">{year}</h2>
-            <p className="text-xl py-1">{role}</p>
-            <p className="text-lg py-1">{company}</p>
+            <p className="text-xl ">{role}</p>
+            <p className="text-lg ">{company}</p>
             <p className="text-lg">{location}</p>
 
          </div>
