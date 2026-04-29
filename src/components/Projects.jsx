@@ -16,7 +16,7 @@ function Projects() {
           name="Portfolio Website"
           role="Frontend Developer"
           details="A personal portfolio built with React and Tailwind CSS.It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
-          image="/src/project.jpg"
+          image="/project.jpg"
           link="https://github.com/John51775/personal-website"
        />
 
@@ -24,7 +24,7 @@ function Projects() {
           name="Portfolio Website"
           role="Frontend Developer"
           details="A personal portfolio built with React and Tailwind CSS.It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
-          image="/src/project.jpg"
+          image="/project.jpg"
           link="https://github.com/John51775/personal-website"
        />
 
@@ -32,7 +32,7 @@ function Projects() {
           name="Portfolio Website"
           role="Frontend Developer"
           details="A personal portfolio built with React and Tailwind CSS.It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
-          image="/src/project.jpg"
+          image="/project.jpg"
           link="https://github.com/John51775/personal-website"
        />
         

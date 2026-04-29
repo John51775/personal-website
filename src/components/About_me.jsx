@@ -20,7 +20,7 @@ function AboutMe() {
           <div className="bg-[#d6cfc7] w-full md:w-1/2 p-10 flex flex-col items-center text-center">
 
             <img
-              src="/src/JOHN.jpg"
+              src="/JOHN.jpg"
               alt="profile"
               className="w-40 h-40 md:w-60 md:h-60 rounded-full object-cover mb-5"
             />
