@@ -2,67 +2,60 @@ import Footer from "./Footer";
 
 function Contact() {
   return (
-    <div className="flex  flex-col min-h-screen bg-[#d6cfc7] items-center ">
-      <main className="flex-grow flex-col flex items-center justify-center">
-        <div className="flex items-center gap-2 p-10">
+    <div className="flex flex-col min-h-screen bg-[#d6cfc7] items-center">
+      <main className="flex-grow flex-col flex items-center justify-center w-full px-4 md:px-0">
+
+        <div className="flex items-center gap-2 p-6 md:p-10">
           <div className="w-5 h-5 bg-blue-600 mt-2"></div>
-          <div><h1 className="font-bold text-4xl ">Let's talk</h1></div>
-
+          <h1 className="font-bold text-4xl">Let's talk</h1>
         </div>
-      <div className="bg-white shadow-md w-full max-w-2xl p-8   ">
 
+        <div className="bg-white shadow-md w-full max-w-2xl p-6 md:p-8">
           <form className="space-y-4">
 
-            <div className="flex gap-6">
+            {/* FIRST + LAST NAME — stacks on mobile */}
+            <div className="flex flex-col md:flex-row gap-6">
               <input
-              type="text"
-              placeholder="First Name"
-              className="w-1/2 border-b border-black  py-2 border-black bg-transparent outline-none py-2"
+                type="text"
+                placeholder="First Name"
+                className="w-full md:w-1/2 border-b border-black bg-transparent outline-none py-2"
               />
-          
               <input
-              type="text"
-              placeholder="Last Name"
-              className="w-1/2 border-b border-black bg-transparent outline-none py-2"
+                type="text"
+                placeholder="Last Name"
+                className="w-full md:w-1/2 border-b border-black bg-transparent outline-none py-2"
               />
-
             </div>
 
             <input
-            type="email"
-            placeholder="email"
-            className="w-full border-b border-black bg-transparent outline-none py-2"
-             />
+              type="email"
+              placeholder="Email"
+              className="w-full border-b border-black bg-transparent outline-none py-2"
+            />
 
             <input
-            type="text"
-            placeholder="subject"
-            className="w-full border-b py-2 border-black bg-transparent outline-none py-2"
-             />
-             
-             <textarea
-             placeholder="message"
-             rows="4"  
-             className="w-full border-b py-2 resize-none border-black bg-transparent outline-none py-2"           
-             ></textarea>
+              type="text"
+              placeholder="Subject"
+              className="w-full border-b border-black bg-transparent outline-none py-2"
+            />
 
-             {/* BUTTON */}
-             <a href="mailto:ngaruiyajohn86@gmail.com">
-            <button className="py-2 text-white px-4 bg-blue-600 rounded-full   transition-transform duration-200 hover:scale-95">
-             Send Message
-            </button>
+            <textarea
+              placeholder="Message"
+              rows="4"
+              className="w-full border-b border-black bg-transparent outline-none py-2 resize-none"
+            />
+
+            <a href="mailto:ngaruiyajohn86@gmail.com">
+              <button className="py-2 text-white px-4 bg-blue-600 rounded-full transition-transform duration-200 hover:scale-95">
+                Send Message
+              </button>
             </a>
+
           </form>
-
-
-      </div>
-          
-
-
-
+        </div>
 
       </main>
-      <div className="w-full "><Footer /></div>
+      <div className="w-full"><Footer /></div>
     </div>
   );
 }
